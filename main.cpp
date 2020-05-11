@@ -1,13 +1,12 @@
 //------------------------------------
-//  Prog5Vexed.cpp
+//  Vexed.cpp
 //     Move pieces to be adjacent.  Once adjacent pieces match, they are cleared off the board.  Once the entire
 //     board is clear, play advances to the next level.
 //
-//  Prog 5: Vexed with Graphics
+//  Vexed with Graphics
 //  Author: Nishant Chudasama
 //  Using Codio, for UIC CS 141, Fall 2019
 //  
-//  **** Using ideas from solution code for Program 4 by Dale Reed
 // 
 // Instructions:
 //    To run this program, first select the "Build and Run" option at the top of the window. You
@@ -94,10 +93,6 @@ public:
 		yPosition = theYPosition;
 		theSquare.setPosition(xPosition, theYPosition);   // Set the position of the square
 	}
-	//void setColor(sf::Color& theColor) {
-	//	color = theColor;
-	//	theSquare.setFillColor(theColor);    // Also update the color on the square itself
-	//}
 	void setColor(const sf::Color& theColor) {
 		color = theColor;
 		theSquare.setFillColor(theColor);    // Also update the color on the square itself
